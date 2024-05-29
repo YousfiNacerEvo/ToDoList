@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Ubuntu", sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3B87F9;
+}
+main{
+    padding: 10px 40px 20px;
+    border-radius: 14px;
+    background-color: white;
+    
+
+}
+main .title-section{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+main .input-section
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    
+    
+    
+}
+.input-section input,
+.input-section button{
+    border: none;
+    outline: none;
+    padding: 4px 7px;
+    height: 100%;
+}
+.input-fild{
+    width: 100%;
+    display: flex;
+}
+.input-section input{
+    width: 100%;
+    border-radius: 4px 0 0 4px;
+    border: 2px solid #3B87F9;
+    padding: 10px;
+}
+.input-section button{
+    border-radius: 0 4px 4px 0;
+    text-align: center;
+    color: white;
+    background-color: #3B87F9;
+    height: 39px;
+    padding: 10px 20px;
+
+}
+.newL{
+    padding: 10px 10px;
+    color: white;
+    font-size: 18px;
+    margin: 5px 0;
+    width: 100%;
+    border-radius: 7px;
+    word-break: break-all;
+}
+.task{
+    background-color: #3B87F9;
+}
+.task-finish{
+    background-color: rgb(244, 74, 74);
+    color: white;
+    text-decoration: line-through;
+}
